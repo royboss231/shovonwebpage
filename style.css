@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marque{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(70, 63, 63);
+    color: white;
+}
+
+
+
+
+header{
+    background-image: url(1000038271.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+
+}
+header h1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.n{
+    text-align: center;
+    
+}
+.n ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 13px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    cursor: pointer;
+    
+
+}
+.n ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+}
+
+.main .right_side{
+    width: 85%;
+    margin-left: 20px;
+}
+.main left_side{
+    width: 10%;
+
+}
+.main .left_side img{
+    
+    width: 100%;
+    height: 350px;
+}
+
+.main .left_side details ul{
+    list-style: none;
+}
+
+@media (max-width: 1200px){
+    .nl{
+        font-size: 1.1rem;
+        align-items: center;
+        margin-left: 28%;
+        color: white;
+    }
+
+    .ln{
+        width: 100%;
+        height: 250px;
+    }
+    
+    #labo{
+        height: 100px;
+    }
+    
+}
